@@ -1,0 +1,51 @@
+{
+    "name": "universal-audio",
+    "version": "1.0.0",
+    "description": "A universal implementation of the Web Audio API",
+    "homepage": "https://github.com/johndigital/universal-audio",
+    "main": "dist/node-ponyfill.js",
+    "browser": "browser.js",
+    "scripts": {
+        "prepublishOnly": "rimraf dist && make dist"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    },
+    "standard": {
+        "env": [
+            "browser"
+        ],
+        "ignore": [
+            "/dist/"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/johndigital/universal-audio.git"
+    },
+    "author": "John Robson <j@hn.digital>",
+    "license": "MIT",
+    "dependencies": {
+        "node-web-audio-api": "0.21.5"
+    },
+    "devDependencies": {
+        "prettier": "3.4.2",
+        "rimraf": "5.0.1",
+        "rollup": "3.26.0",
+        "rollup-plugin-copy": "3.5.0"
+    },
+    "files": [
+        "dist",
+        "polyfill"
+    ],
+    "keywords": [
+        "audio",
+        "isomorphic",
+        "universal",
+        "node",
+        "browser",
+        "ponyfill"
+    ]
+}

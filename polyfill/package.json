@@ -1,0 +1,7 @@
+{
+    "name": "universal-audio-polyfill",
+    "version": "0.0.0",
+    "main": "../dist/node-polyfill.js",
+    "browser": "../browser.js",
+    "license": "MIT"
+}
