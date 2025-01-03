@@ -1,6 +1,6 @@
 ### Universal Audio
 
-================
+---
 
 A universal implementation of the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API). Can be used in browsers or in Node. The Node implementation of the API is built on bindings to the [Rust implementation of Web Audio](https://www.w3.org/TR/webaudio/).
 
